@@ -168,8 +168,8 @@ html.has-cursor .cursor-ring { display: grid; place-items: center; }
 .overlay-menu a { margin-top: 2rem; color: var(--saffron); }
 
 /* ====== Hero ====== */
-.hero { position: relative; height: 100vh; overflow: hidden; background: var(--ink); isolation: isolate; }
-.hero-glow { position: absolute; left: 50%; top: 50%; width: 90vmax; height: 90vmax; translate: -50% -50%; background: var(--glow-accent); opacity: 0.55; z-index: -1; }
+.hero { position: relative; height: 100vh; overflow: hidden; background: #000; isolation: isolate; }
+.hero-glow { position: absolute; left: 50%; top: 50%; width: 90vmax; height: 90vmax; translate: -50% -50%; background: var(--glow-accent); opacity: 0; display: none; z-index: -1; }
 .hero-words { position: absolute; inset: 0; display: grid; place-items: center; z-index: 0; pointer-events: none; }
 .hero-word { grid-area: 1 / 1; overflow: hidden; font-family: var(--f-display); font-weight: 700; font-style: italic; font-size: clamp(5rem, 22vw, 22rem); line-height: 0.9; letter-spacing: -0.05em; color: color-mix(in oklab, var(--accent) 16%, transparent); font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 144; white-space: nowrap; }
 .hero-word span { display: inline-block; }
