@@ -16,7 +16,7 @@ export const MEDIA: Record<string,string> = {
  "hero-seekh.mp4": "/__l5e/assets-v1/ee37e909-3832-4c76-8025-b03376a432f1/hero-seekh.mp4",
  "hero-tandoori-m.mp4": "/__l5e/assets-v1/7f4bab75-584a-47db-a9ec-7f489567ccc5/hero-tandoori-m.mp4",
  "hero-tandoori.mp4": "/__l5e/assets-v1/3da30d39-f63f-41de-bf94-600709a0be19/hero-tandoori.mp4",
- "img-butter-chicken.webp": "/__l5e/assets-v1/30d13203-5a27-42a8-a3a0-1c2d5b0ab1aa/img-butter-chicken.webp",
+ "img-butter-chicken.webp": "/__l5e/assets-v1/f8889253-f8be-4f2c-b596-310028e69fb9/img-butter-chicken-v2.webp",
  "img-dal.webp": "/__l5e/assets-v1/d8cb6c68-5dac-4203-878a-d8ea6a959653/img-dal.webp",
  "img-embers.webp": "/__l5e/assets-v1/f7ca5582-b0d0-4791-9e1a-355737259f49/img-embers.webp",
  "img-feast.webp": "/__l5e/assets-v1/c08829a1-f2fb-479d-a5af-710b299e56a6/img-feast.webp",
