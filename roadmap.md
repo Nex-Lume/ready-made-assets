@@ -1,0 +1,3 @@
+- [ ] Replace all 23 uploaded media items, preserving hero seek quality and existing sections.
+- [ ] Switch restaurant location, phone format, timezone and sample menu prices to India/INR.
+- [ ] Verify media playback and Indian details through tests and the website.
