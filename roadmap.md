@@ -1,0 +1,4 @@
+- [x] Replace all 23 uploaded media items, preserving hero seek quality and existing sections.
+- [x] Switch restaurant location, phone format, timezone and sample menu prices to India/INR.
+- [x] Verify Indian details through six passing tests and the website; all 52 asset URLs return 200 and all 29 videos decode.
+- [ ] Verify live video playback in a browser with H.264 support; sandbox Chromium lacks the codec.

@@ -45,7 +45,7 @@ export function Marquee() {
     });
   });
   const a = ["Dum Pukht", "Saffron", "Sealed in Copper", "बिरयानी", "Ninety Minutes", "Charcoal", "केसर"];
-  const b = ["Tandoor 480°C", "Hand-pulled Naan", "दम", "Eleven Spices", "Ghee", "Adelaide", "खुशबू"];
+  const b = ["Tandoor 480°C", "Hand-pulled Naan", "दम", "Eleven Spices", "Ghee", SITE.city, "खुशबू"];
   const row = (w: string[]) => [...w, ...w].map((x, i) => <Fragment key={i}><span className={/[\u0900-\u097F]/.test(x) ? "hindi" : ""}>{x}</span><i>✦</i></Fragment>);
   return (
     <section className="marquee" ref={ref} aria-hidden>
@@ -248,7 +248,7 @@ export function Menu() {
             </div>
           ))}
         </div>
-        <p className="mono muted menu-note">Prices in AUD. Tell us about allergies — we cook everything to order.</p>
+        <p className="mono muted menu-note">Prices in {SITE.currency}. Tell us about allergies — we cook everything to order.</p>
       </div>
     </section>
   );
@@ -390,7 +390,7 @@ export function Rules() {
 function LocalTime() {
   const [t, setT] = useState("");
   useEffect(() => {
-    const f = () => setT(new Intl.DateTimeFormat("en-AU", { timeZone: SITE.timezone, hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false }).format(new Date()));
+    const f = () => setT(new Intl.DateTimeFormat("en-IN", { timeZone: SITE.timezone, hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false }).format(new Date()));
     f(); const id = setInterval(f, 1000); return () => clearInterval(id);
   }, []);
   return <>{t || "--:--:--"}</>;

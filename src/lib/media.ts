@@ -1,57 +1,109 @@
-// Generated from scripts/process.sh output + lovable-assets uploads.
-export const MEDIA: Record<string,string> = {
- "hero-biryani-m.mp4": "/__l5e/assets-v1/deb050ed-5ade-48ef-a21f-9162699981bd/hero-biryani-m.mp4",
- "hero-biryani.mp4": "/__l5e/assets-v1/ed9ae721-22d5-4829-90e7-3dda17683b4f/hero-biryani.mp4",
- "hero-butter-chicken-m.mp4": "/__l5e/assets-v1/73156f8d-9cf4-42ea-b860-9a29acb5f556/hero-butter-chicken-m.mp4",
- "hero-butter-chicken.mp4": "/__l5e/assets-v1/1f175c79-b403-496a-bef5-8d6dd67561b5/hero-butter-chicken.mp4",
- "hero-dal-m.mp4": "/__l5e/assets-v1/88d09021-f0d7-4e32-bfec-9b993b063f55/hero-dal-m.mp4",
- "hero-dal.mp4": "/__l5e/assets-v1/2325455d-ece4-483f-b783-226336bf2f54/hero-dal.mp4",
- "hero-lassi-m.mp4": "/__l5e/assets-v1/fc8ca504-92f0-4d97-aebf-9dfeac9e4e49/hero-lassi-m.mp4",
- "hero-lassi.mp4": "/__l5e/assets-v1/e4c7de53-2142-4f51-90b3-3b3d950f6a2a/hero-lassi.mp4",
- "hero-naan-m.mp4": "/__l5e/assets-v1/635b2ded-f8eb-4928-9c19-3cb8f868005d/hero-naan-m.mp4",
- "hero-naan.mp4": "/__l5e/assets-v1/6c53064d-b04f-44e2-bf82-f155b003b1c0/hero-naan.mp4",
- "hero-paneer-m.mp4": "/__l5e/assets-v1/ac97f006-b2ad-4f39-a566-6b22a02d1fd9/hero-paneer-m.mp4",
- "hero-paneer.mp4": "/__l5e/assets-v1/3f6c145d-09ae-40ba-8a92-ea86d4450b60/hero-paneer.mp4",
- "hero-seekh-m.mp4": "/__l5e/assets-v1/d0058fbe-e22f-42e0-90a4-14aec3952e37/hero-seekh-m.mp4",
- "hero-seekh.mp4": "/__l5e/assets-v1/ee37e909-3832-4c76-8025-b03376a432f1/hero-seekh.mp4",
- "hero-tandoori-m.mp4": "/__l5e/assets-v1/7f4bab75-584a-47db-a9ec-7f489567ccc5/hero-tandoori-m.mp4",
- "hero-tandoori.mp4": "/__l5e/assets-v1/3da30d39-f63f-41de-bf94-600709a0be19/hero-tandoori.mp4",
- "img-butter-chicken.webp": "/__l5e/assets-v1/f8889253-f8be-4f2c-b596-310028e69fb9/img-butter-chicken-v2.webp",
- "img-dal.webp": "/__l5e/assets-v1/d8cb6c68-5dac-4203-878a-d8ea6a959653/img-dal.webp",
- "img-embers.webp": "/__l5e/assets-v1/f7ca5582-b0d0-4791-9e1a-355737259f49/img-embers.webp",
- "img-feast.webp": "/__l5e/assets-v1/c08829a1-f2fb-479d-a5af-710b299e56a6/img-feast.webp",
- "img-handi-dum.webp": "/__l5e/assets-v1/aff8c8b8-9589-4c11-8673-1da6e5243333/img-handi-dum.webp",
- "img-lassi.webp": "/__l5e/assets-v1/eb217235-68f8-4129-9cdd-a5db49e55e3d/img-lassi.webp",
- "img-naan.webp": "/__l5e/assets-v1/36c52aa3-0bcf-4c72-bd5a-0bd9720c8c33/img-naan.webp",
- "img-paneer.webp": "/__l5e/assets-v1/a0e22fdf-050f-4910-b416-a449bbef658e/img-paneer.webp",
- "img-seekh.webp": "/__l5e/assets-v1/1eeeafde-c811-41f9-97e5-1213f41d76ca/img-seekh.webp",
- "img-tandoori.webp": "/__l5e/assets-v1/2c1ca3aa-f556-4ae7-a522-581d9b94974e/img-tandoori.webp",
- "v-biryani.jpg": "/__l5e/assets-v1/678051ba-2f0b-4b3b-aa1d-e3bc6f6cddfa/v-biryani.jpg",
- "v-biryani.mp4": "/__l5e/assets-v1/1ac13f67-2d9e-4ebf-9185-ec08fc3ecd1b/v-biryani.mp4",
- "v-butter-chicken.jpg": "/__l5e/assets-v1/27521775-3d88-4dc9-95c3-b4763dbc8716/v-butter-chicken.jpg",
- "v-butter-chicken.mp4": "/__l5e/assets-v1/d9a645cc-1104-4bef-b0c6-939021bf5ae2/v-butter-chicken.mp4",
- "v-dal.jpg": "/__l5e/assets-v1/ae60f3b3-f150-4a59-b443-40dcd0cb2ac3/v-dal.jpg",
- "v-dal.mp4": "/__l5e/assets-v1/6aaefbef-edc6-4bd7-a35f-78b3949be701/v-dal.mp4",
- "v-gravy-pour.jpg": "/__l5e/assets-v1/b5ff89e0-bf42-45d0-8ac5-c5f3130f8261/v-gravy-pour.jpg",
- "v-gravy-pour.mp4": "/__l5e/assets-v1/02f76c88-6bc0-4b5c-adc5-ac006090e97f/v-gravy-pour.mp4",
- "v-ingredients.jpg": "/__l5e/assets-v1/ececbd6b-3d76-4bd4-8bec-dce476c1e1f0/v-ingredients.jpg",
- "v-ingredients.mp4": "/__l5e/assets-v1/914d57c4-dd4b-48a2-adc3-c4b404019ba4/v-ingredients.mp4",
- "v-lassi.jpg": "/__l5e/assets-v1/b6c5d95f-d27e-4155-ab53-a5af86b617b2/v-lassi.jpg",
- "v-lassi.mp4": "/__l5e/assets-v1/1e2566e2-fa7a-426a-9faa-1e824711e8e0/v-lassi.mp4",
- "v-naan.jpg": "/__l5e/assets-v1/584829fa-baec-462e-9823-de5e87939bf6/v-naan.jpg",
- "v-naan.mp4": "/__l5e/assets-v1/2c27adaa-3856-45bd-833d-289901cc96de/v-naan.mp4",
- "v-paneer.jpg": "/__l5e/assets-v1/c0ed0dd1-fbe8-4b8a-81e8-647b045faa97/v-paneer.jpg",
- "v-paneer.mp4": "/__l5e/assets-v1/559b21c8-f791-4d9f-995b-9776a07d897c/v-paneer.mp4",
- "v-seekh.jpg": "/__l5e/assets-v1/806511aa-3b10-44df-9392-46bd36b4d4d5/v-seekh.jpg",
- "v-seekh.mp4": "/__l5e/assets-v1/cfeb6129-8160-4fd8-b501-982975e571e1/v-seekh.mp4",
- "v-spices.jpg": "/__l5e/assets-v1/2f56a1f3-dcc0-4a7f-bbfc-9b76980f9eb6/v-spices.jpg",
- "v-spices.mp4": "/__l5e/assets-v1/d93b2c8d-f305-4153-881e-f7e8e3cfa847/v-spices.mp4",
- "v-steam.jpg": "/__l5e/assets-v1/eb01dedb-ac30-4093-9fa8-59415e3e49b0/v-steam.jpg",
- "v-steam.mp4": "/__l5e/assets-v1/b2d0ec4a-c88d-4866-bd9f-1ef9d3193be2/v-steam.mp4",
- "v-storefront.jpg": "/__l5e/assets-v1/8a94d999-c287-48c1-9510-23b2f552d7f9/v-storefront.jpg",
- "v-storefront.mp4": "/__l5e/assets-v1/4b01bbec-b178-45d2-b149-b22e219e4a00/v-storefront.mp4",
- "v-tandoori.jpg": "/__l5e/assets-v1/629744c5-ec5f-4770-ac3e-f924695ca423/v-tandoori.jpg",
- "v-tandoori.mp4": "/__l5e/assets-v1/c506e802-ef32-4d7f-8c65-7977c19ef8ce/v-tandoori.mp4"
+// Generated from processed media asset pointers.
+import asset0 from "@/assets/media/hero-biryani-m.mp4.v3.asset.json";
+import asset1 from "@/assets/media/hero-biryani.mp4.v3.asset.json";
+import asset2 from "@/assets/media/hero-butter-chicken-m.mp4.v3.asset.json";
+import asset3 from "@/assets/media/hero-butter-chicken.mp4.v3.asset.json";
+import asset4 from "@/assets/media/hero-dal-m.mp4.v3.asset.json";
+import asset5 from "@/assets/media/hero-dal.mp4.v3.asset.json";
+import asset6 from "@/assets/media/hero-lassi-m.mp4.v3.asset.json";
+import asset7 from "@/assets/media/hero-lassi.mp4.v3.asset.json";
+import asset8 from "@/assets/media/hero-naan-m.mp4.v3.asset.json";
+import asset9 from "@/assets/media/hero-naan.mp4.v3.asset.json";
+import asset10 from "@/assets/media/hero-paneer-m.mp4.v3.asset.json";
+import asset11 from "@/assets/media/hero-paneer.mp4.v3.asset.json";
+import asset12 from "@/assets/media/hero-seekh-m.mp4.v3.asset.json";
+import asset13 from "@/assets/media/hero-seekh.mp4.v3.asset.json";
+import asset14 from "@/assets/media/hero-tandoori-m.mp4.v3.asset.json";
+import asset15 from "@/assets/media/hero-tandoori.mp4.v3.asset.json";
+import asset16 from "@/assets/media/img-butter-chicken.webp.v3.asset.json";
+import asset17 from "@/assets/media/img-dal.webp.v3.asset.json";
+import asset18 from "@/assets/media/img-embers.webp.v3.asset.json";
+import asset19 from "@/assets/media/img-feast.webp.v3.asset.json";
+import asset20 from "@/assets/media/img-handi-dum.webp.v3.asset.json";
+import asset21 from "@/assets/media/img-lassi.webp.v3.asset.json";
+import asset22 from "@/assets/media/img-naan.webp.v3.asset.json";
+import asset23 from "@/assets/media/img-paneer.webp.v3.asset.json";
+import asset24 from "@/assets/media/img-seekh.webp.v3.asset.json";
+import asset25 from "@/assets/media/img-tandoori.webp.v3.asset.json";
+import asset26 from "@/assets/media/v-biryani.jpg.v3.asset.json";
+import asset27 from "@/assets/media/v-biryani.mp4.v3.asset.json";
+import asset28 from "@/assets/media/v-butter-chicken.jpg.v3.asset.json";
+import asset29 from "@/assets/media/v-butter-chicken.mp4.v3.asset.json";
+import asset30 from "@/assets/media/v-dal.jpg.v3.asset.json";
+import asset31 from "@/assets/media/v-dal.mp4.v3.asset.json";
+import asset32 from "@/assets/media/v-gravy-pour.jpg.v3.asset.json";
+import asset33 from "@/assets/media/v-gravy-pour.mp4.v3.asset.json";
+import asset34 from "@/assets/media/v-ingredients.jpg.v3.asset.json";
+import asset35 from "@/assets/media/v-ingredients.mp4.v3.asset.json";
+import asset36 from "@/assets/media/v-lassi.jpg.v3.asset.json";
+import asset37 from "@/assets/media/v-lassi.mp4.v3.asset.json";
+import asset38 from "@/assets/media/v-naan.jpg.v3.asset.json";
+import asset39 from "@/assets/media/v-naan.mp4.v3.asset.json";
+import asset40 from "@/assets/media/v-paneer.jpg.v3.asset.json";
+import asset41 from "@/assets/media/v-paneer.mp4.v3.asset.json";
+import asset42 from "@/assets/media/v-seekh.jpg.v3.asset.json";
+import asset43 from "@/assets/media/v-seekh.mp4.v3.asset.json";
+import asset44 from "@/assets/media/v-spices.jpg.v3.asset.json";
+import asset45 from "@/assets/media/v-spices.mp4.v3.asset.json";
+import asset46 from "@/assets/media/v-steam.jpg.v3.asset.json";
+import asset47 from "@/assets/media/v-steam.mp4.v3.asset.json";
+import asset48 from "@/assets/media/v-storefront.jpg.v3.asset.json";
+import asset49 from "@/assets/media/v-storefront.mp4.v3.asset.json";
+import asset50 from "@/assets/media/v-tandoori.jpg.v3.asset.json";
+import asset51 from "@/assets/media/v-tandoori.mp4.v3.asset.json";
+export const MEDIA: Record<string, string> = {
+  "hero-biryani-m.mp4": asset0.url,
+  "hero-biryani.mp4": asset1.url,
+  "hero-butter-chicken-m.mp4": asset2.url,
+  "hero-butter-chicken.mp4": asset3.url,
+  "hero-dal-m.mp4": asset4.url,
+  "hero-dal.mp4": asset5.url,
+  "hero-lassi-m.mp4": asset6.url,
+  "hero-lassi.mp4": asset7.url,
+  "hero-naan-m.mp4": asset8.url,
+  "hero-naan.mp4": asset9.url,
+  "hero-paneer-m.mp4": asset10.url,
+  "hero-paneer.mp4": asset11.url,
+  "hero-seekh-m.mp4": asset12.url,
+  "hero-seekh.mp4": asset13.url,
+  "hero-tandoori-m.mp4": asset14.url,
+  "hero-tandoori.mp4": asset15.url,
+  "img-butter-chicken.webp": asset16.url,
+  "img-dal.webp": asset17.url,
+  "img-embers.webp": asset18.url,
+  "img-feast.webp": asset19.url,
+  "img-handi-dum.webp": asset20.url,
+  "img-lassi.webp": asset21.url,
+  "img-naan.webp": asset22.url,
+  "img-paneer.webp": asset23.url,
+  "img-seekh.webp": asset24.url,
+  "img-tandoori.webp": asset25.url,
+  "v-biryani.jpg": asset26.url,
+  "v-biryani.mp4": asset27.url,
+  "v-butter-chicken.jpg": asset28.url,
+  "v-butter-chicken.mp4": asset29.url,
+  "v-dal.jpg": asset30.url,
+  "v-dal.mp4": asset31.url,
+  "v-gravy-pour.jpg": asset32.url,
+  "v-gravy-pour.mp4": asset33.url,
+  "v-ingredients.jpg": asset34.url,
+  "v-ingredients.mp4": asset35.url,
+  "v-lassi.jpg": asset36.url,
+  "v-lassi.mp4": asset37.url,
+  "v-naan.jpg": asset38.url,
+  "v-naan.mp4": asset39.url,
+  "v-paneer.jpg": asset40.url,
+  "v-paneer.mp4": asset41.url,
+  "v-seekh.jpg": asset42.url,
+  "v-seekh.mp4": asset43.url,
+  "v-spices.jpg": asset44.url,
+  "v-spices.mp4": asset45.url,
+  "v-steam.jpg": asset46.url,
+  "v-steam.mp4": asset47.url,
+  "v-storefront.jpg": asset48.url,
+  "v-storefront.mp4": asset49.url,
+  "v-tandoori.jpg": asset50.url,
+  "v-tandoori.mp4": asset51.url,
 };
 export const hero=(k:string,m=false)=>MEDIA[`hero-${k}${m?"-m":""}.mp4`];
 export const film=(k:string)=>MEDIA[`v-${k}.mp4`];

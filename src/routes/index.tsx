@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useCallback, useEffect, useState } from "react";
 import Lenis from "lenis";
+import { SITE } from "@/lib/site";
 import { gsap, ScrollTrigger, scroller, reducedMotion } from "@/lib/motion";
 import { Hero } from "@/components/site/Hero";
 import { Cursor, Grain, Loader, Nav } from "@/components/site/Chrome";
@@ -9,9 +10,9 @@ import { Footer, Manifesto, MaskWord, Marquee, Menu, Pour, Rules, Spices, Steps,
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Mr. Biriyaniwala — Hyderabadi dum biryani & charcoal tandoor, Adelaide" },
-      { name: "description", content: "Biryani sealed with dough and slow-cooked on dum for ninety minutes, opened at your table. Charcoal tandoor, eleven spices, Adelaide." },
-      { property: "og:title", content: "Mr. Biriyaniwala — Hyderabadi dum biryani, Adelaide" },
+      { title: `${SITE.name} — Hyderabadi dum biryani & charcoal tandoor, ${SITE.city}` },
+      { name: "description", content: `Biryani sealed with dough and slow-cooked on dum for ninety minutes, opened at your table. Charcoal tandoor, eleven spices, ${SITE.city}, India.` },
+      { property: "og:title", content: `${SITE.name} — Hyderabadi dum biryani, ${SITE.city}` },
       { property: "og:description", content: "Sealed in copper, cooked on dum, opened at the table." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
