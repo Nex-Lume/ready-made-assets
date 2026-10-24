@@ -196,7 +196,7 @@ html.has-cursor .cursor-ring { display: grid; place-items: center; }
 .hero-bar { position: absolute; left: var(--pad); right: var(--pad); bottom: 5vh; height: 1px; background: var(--hair); z-index: 2; }
 .hero-bar i { display: block; height: 100%; background: var(--accent); transform-origin: left; transform: scaleX(0); }
 .ring-badge { position: absolute; right: var(--pad); bottom: 9vh; width: 130px; height: 130px; z-index: 2; display: grid; place-items: center; }
-.ring-badge svg { position: absolute; inset: 0; animation: spin 18s linear infinite; }
+.ring-badge > svg:first-child { position: absolute; inset: 0; animation: spin 18s linear infinite; }
 .ring-badge text { font-family: var(--f-mono); font-size: 11.2px; letter-spacing: 1.2px; fill: var(--cream-dim); }
 .ring-handi { width: 40px; color: var(--accent); }
 @keyframes spin { to { transform: rotate(360deg); } }
