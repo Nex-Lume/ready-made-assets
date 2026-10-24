@@ -13,8 +13,8 @@ import asset10 from "@/assets/media/hero-paneer-m.mp4.v3.asset.json";
 import asset11 from "@/assets/media/hero-paneer.mp4.v3.asset.json";
 import asset12 from "@/assets/media/hero-seekh-m.mp4.v3.asset.json";
 import asset13 from "@/assets/media/hero-seekh.mp4.v3.asset.json";
-import asset14 from "@/assets/media/hero-tandoori-m.mp4.v3.asset.json";
-import asset15 from "@/assets/media/hero-tandoori.mp4.v3.asset.json";
+import asset14 from "@/assets/media/hero-tandoori-m.mp4.v4.asset.json";
+import asset15 from "@/assets/media/hero-tandoori.mp4.v4.asset.json";
 import asset16 from "@/assets/media/img-butter-chicken.webp.v4.asset.json";
 import asset17 from "@/assets/media/img-dal.webp.v3.asset.json";
 import asset18 from "@/assets/media/img-embers.webp.v3.asset.json";
@@ -24,7 +24,7 @@ import asset21 from "@/assets/media/img-lassi.webp.v3.asset.json";
 import asset22 from "@/assets/media/img-naan.webp.v3.asset.json";
 import asset23 from "@/assets/media/img-paneer.webp.v3.asset.json";
 import asset24 from "@/assets/media/img-seekh.webp.v3.asset.json";
-import asset25 from "@/assets/media/img-tandoori.webp.v3.asset.json";
+import asset25 from "@/assets/media/img-tandoori.webp.v4.asset.json";
 import asset26 from "@/assets/media/v-biryani.jpg.v3.asset.json";
 import asset27 from "@/assets/media/v-biryani.mp4.v3.asset.json";
 import asset28 from "@/assets/media/v-butter-chicken.jpg.v4.asset.json";
@@ -49,8 +49,8 @@ import asset46 from "@/assets/media/v-steam.jpg.v3.asset.json";
 import asset47 from "@/assets/media/v-steam.mp4.v3.asset.json";
 import asset48 from "@/assets/media/v-storefront.jpg.v3.asset.json";
 import asset49 from "@/assets/media/v-storefront.mp4.v3.asset.json";
-import asset50 from "@/assets/media/v-tandoori.jpg.v3.asset.json";
-import asset51 from "@/assets/media/v-tandoori.mp4.v3.asset.json";
+import asset50 from "@/assets/media/v-tandoori.jpg.v4.asset.json";
+import asset51 from "@/assets/media/v-tandoori.mp4.v4.asset.json";
 export const MEDIA: Record<string, string> = {
   "hero-biryani-m.mp4": asset0.url,
   "hero-biryani.mp4": asset1.url,
