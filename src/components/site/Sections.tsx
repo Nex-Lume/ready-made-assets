@@ -139,7 +139,7 @@ export function MaskWord() {
     const tl = gsap.timeline({ scrollTrigger: { trigger: el, start: "top top", end: "bottom bottom", scrub: 0.6, onRefreshInit: setOrigin } });
     tl.from(letters, { yPercent: 120, stagger: 0.06, duration: 0.6, ease: "power3.out" })
       .to(overlay, { scale: 70, duration: 1.4, ease: "power2.in" }, "+=0.15")
-      .to(overlay, { autoAlpha: 0, duration: 0.15 }, "-=0.1")
+      .to(overlay, { autoAlpha: 0, duration: 0.7 }, "-=0.8")
       .from(el.querySelector(".mask-cap"), { autoAlpha: 0, y: 40, duration: 0.4 });
   });
   return (
