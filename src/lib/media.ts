@@ -51,8 +51,11 @@ import asset48 from "@/assets/media/v-storefront.jpg.v3.asset.json";
 import asset49 from "@/assets/media/v-storefront.mp4.v3.asset.json";
 import asset50 from "@/assets/media/v-tandoori.jpg.v5.asset.json";
 import asset51 from "@/assets/media/v-tandoori.mp4.v5.asset.json";
+// Absolute origin so media keeps working when the app is hosted outside Lovable (e.g. Vercel).
+const CDN = "https://id-preview--de0e3dfb-0a7c-4516-a3d1-349fd97529f8.lovable.app";
+const abs = (u: string) => (u.startsWith("http") ? u : CDN + u);
 export const MEDIA: Record<string, string> = {
-  "hero-biryani-m.mp4": asset0.url,
+  "hero-biryani-m.mp4": abs(asset0.url),
   "hero-biryani.mp4": asset1.url,
   "hero-butter-chicken-m.mp4": asset2.url,
   "hero-butter-chicken.mp4": asset3.url,
